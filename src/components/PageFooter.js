@@ -9,7 +9,7 @@ export default function PageFooter() {
           Design: <a href="http://html5up.net">HTML5 UP</a>
         </li>
         <li>
-          Demo Images: <a href="http://unsplash.com/">Unsplash</a>
+          This page created using <a href="https://www.gatsbyjs.org/"><strong>GatsbyJS</strong></a>
         </li>
       </ul>
     </div>

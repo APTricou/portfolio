@@ -29,17 +29,17 @@ const IndexPage = () => (
         <div className="container">
           <header>
             <h2 className="alt">
-              Hi! I'm <strong>Anubhav</strong>
+              Hi! I'm <strong>Antanas Tricou</strong>
               <br />
-              Web developer
+              A Web Developer
             </h2>
-            <p>I have made few things check it out.</p>
+            <p>Located in the greater Chicago Area, I love building tools to shape the future, and people.</p>
           </header>
 
           <footer>
             <Scroll type="id" element={'portfolio'}>
               <a href="#portfolio" className="button">
-                Show me
+                Portfolio
               </a>
             </Scroll>
           </footer>
@@ -53,10 +53,10 @@ const IndexPage = () => (
           </header>
 
           <p>
-            Life will feel it is always a great need for eu valley, the valley
-            CNN ridiculous smile at any time chat mainstream clinical homes.
-            Mauris floor was very warm and we need it. One customer now nibh
-            Bureau dark pools behavior.
+            Here are several of my recent projects. 
+            For a more full list of my projects, 
+            and contributions, check out my 
+            <strong><a href='https://github.com/APTricou'> GITHUB</a></strong>
           </p>
 
           <div className="row">
@@ -66,7 +66,7 @@ const IndexPage = () => (
                   <img src={pic2} alt="" />
                 </a>
                 <header>
-                  <h3>Ipsum Feugiat</h3>
+                  <h3>SVG Board</h3>
                 </header>
               </article>
               <article className="item">
@@ -74,7 +74,7 @@ const IndexPage = () => (
                   <img src={pic3} alt="" />
                 </a>
                 <header>
-                  <h3>Rhoncus Semper</h3>
+                  <h3>Read The Room</h3>
                 </header>
               </article>
             </div>
@@ -84,19 +84,11 @@ const IndexPage = () => (
                   <img src={pic4} alt="" />
                 </a>
                 <header>
-                  <h3>Magna Nullam</h3>
-                </header>
-              </article>
-              <article className="item">
-                <a href="/#" className="image fit">
-                  <img src={pic5} alt="" />
-                </a>
-                <header>
-                  <h3>Natoque Vitae</h3>
+                  <h3>SeaBay Shopper</h3>
                 </header>
               </article>
             </div>
-            <div className="col-4 col-12-mobile">
+            {/* <div className="col-4 col-12-mobile">
               <article className="item">
                 <a href="/#" className="image fit">
                   <img src={pic6} alt="" />
@@ -113,7 +105,7 @@ const IndexPage = () => (
                   <h3>Orci Convallis</h3>
                 </header>
               </article>
-            </div>
+            </div> */}
           </div>
         </div>
       </section>
@@ -129,13 +121,17 @@ const IndexPage = () => (
           </a>
 
           <p>
-            Developers football competition in diameter big price to layer the
-            pot. Chavez ultricies care who wants to CNN. Lobortis elementum
-            aliquet eget a den of which they do not hold it in hatred developers
-            nor the mountains of the deposit slip. The element of time, sem ante
-            ullamcorper dolor nulla quam placerat viverra environment is not
-            with our customers. Free makeup and skirt until the mouse or
-            partners or to decorate each targeted.
+          My name is Antanas Tricou. I am a software developer with a mechanical engineering background.
+          Previously I was working in an industrial setting, implementing tracking software for maintenance
+           intervals. Through working with these technologies I saw the potential of the strength of adding 
+           and creating new tools to continuously improve the quality of life of day to day work, which 
+           inspired me to start investigating code development. Eventually I decided to join Fullstack Academy 
+           of code to cement my understanding of the tech industry. With this knowledge and drive I want to build 
+           new tools and work with companies to identify and streamline their bottlenecks to increase efficiency. 
+          I primarily would like to involve myself in environmental endeavors and to build something that people love to use.
+          Technical Stack
+          Proficient in: Javascript, React, Express, Node, Sequelize, React Native, Redux, HTML, CSS, Heroku, Git
+          Familiar with : Python, Webpack, Firebase
           </p>
         </div>
       </section>
@@ -145,15 +141,12 @@ const IndexPage = () => (
           <header>
             <h2>Contact</h2>
           </header>
-
           <p>
-            The element of time, sem ante ullamcorper dolor nulla quam placerat
-            viverra environment is not with our customers. Free makeup and skirt
-            until the mouse. Japan this innovative and ultricies carton salad
-            clinical ridiculous now passes from enhanced. Mauris pot innovative
-            care for my pain.
+            I am interested in working as a software developer on products that people love to use.
+             You can email me below, or find me on 
+             <a href="https://www.linkedin.com/in/antanastricou/"><strong>Linked In</strong></a>, 
+             <a><strong>Github</strong></a>, or carrier pidgeon.
           </p>
-
           <form method="post" action="#">
             <div className="row">
               <div className="col-6 col-12-mobile">
