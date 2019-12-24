@@ -310,25 +310,27 @@
 			width: 100%;
 		}
 
-		&.avatar48 {
-			width: 48px;
-			height: 48px;
-
-			img {
-				width: 48px;
-				height: 48px;
-			}
-		}
-
 		&.fit {
 			display: block;
 			width: 100%;
+			height: 50%;
+			overflow:hidden;
+			color: black;
+			margin-bottom: 0;
+			@include vendor('transition', ('all 0.35s ease-in-out'));
+			&:hover {
+				opacity: 0.8;
+				margin-bottom: 15px;
+				width:101%;
+			}
 		}
 
 		&.featured {
 			display: block;
 			width: 100%;
 			margin: 0 0 2em 0;
+			height: 200px;
+			overflow: hidden;
 		}
 
 		&.left {
@@ -650,7 +652,7 @@
 						color: #fff;
 
 						span:before {
-							color: #e27689;
+							color: teal;
 						}
 					}
 				}
@@ -759,7 +761,10 @@
 
 			&.one {
 				background-color: #81918E;
-				background-image: url('../images/banner.jpg');
+				background-image: url('../images/wave.jpg');
+				color: white;
+				text-shadow: 2px 2px black;
+				height: 100vh;
 			}
 
 			&.two {
