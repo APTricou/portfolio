@@ -369,6 +369,32 @@
 		}
 	}
 
+/* Blinker */
+
+.left-align {
+	text-align: left;
+}
+
+.blinker { 
+	animation-name: blinker;
+	animation-iteration-count: infinite;
+	animation-timing-function: cubic-bezier(1,0,0,1);
+	animation-duration: 1s;
+	//Basic styling  
+	display: inline-block;
+	width: 2px;
+	height: 1.5rem;
+	position: relative;
+	top:5px;
+	left: 2px;
+	box-shadow: 0 0 10px white;
+	background-color: white;
+  }
+  
+  @keyframes blinker { 
+	from { opacity: 1.0; } to { opacity: 0.0; }
+  }
+
 /* Icons */
 
 	ul.icons {
@@ -760,10 +786,10 @@
 			}
 
 			&.one {
-				background-color: #81918E;
-				background-image: url('../images/wave.jpg');
+				background-color: black;
+				// background-image: url('../images/wave.jpg');
 				color: white;
-				text-shadow: 2px 2px black;
+				// text-shadow: 2px 2px black;
 				height: 100vh;
 			}
 

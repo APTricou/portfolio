@@ -23,6 +23,7 @@ const IndexPage = () => (
     <div id="main">
       <section id="top" className="one dark cover">
         <div className="container">
+          <p class="left-align">$: load Antanas_Portfolio</p>
           <header>
             <h2 className="alt">
               Hi! I'm <strong>Antanas Tricou</strong>
@@ -32,6 +33,9 @@ const IndexPage = () => (
               Located in the greater Chicago Area, I love building tools to
               shape the future, and working with people who want to change the
               world.
+            </p>
+            <p class="left-align">
+              $:<span class="blinker"></span>
             </p>
           </header>
 
