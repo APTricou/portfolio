@@ -1,10 +1,10 @@
 {
   "name": "portfolio",
   "version": "0.0.1",
-  "description": "Gastby Starter built onto for more interactivity and personalization",
+  "description": "Gatsby.js V2 starter template based on Prologue by HTML5 UP",
   "repository": {
     "type": "git",
-    "url": "https://github.com/APTricou/portfolio"
+    "url": "git+https://github.com/anubhavsrivastava/gatsby-starter-prologue.git"
   },
   "author": {
     "name": "Antanas Tricou",
