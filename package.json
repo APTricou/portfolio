@@ -1,14 +1,14 @@
 {
-  "name": "gatsby-starter-prologue",
+  "name": "portfolio",
   "version": "0.0.1",
-  "description": "Gatsby.js V2 starter template based on Prologue by HTML5 UP",
+  "description": "Gastby Starter built onto for more interactivity and personalization",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/anubhavsrivastava/gatsby-starter-prologue.git"
+    "url": "https://github.com/APTricou/portfolio"
   },
   "author": {
-    "name": "Anubhav Srivastava",
-    "email": "anubhav.srivastava00@gmail.com"
+    "name": "Antanas Tricou",
+    "email": "APTricou@gmail.com"
   },
   "dependencies": {
     "gatsby": "^2.4.3",
